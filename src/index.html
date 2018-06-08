@@ -1,12 +1,14 @@
 <!doctype html>
-<html ng-app="app" lang="en">
+<html  ng-app="app"  lang="en">
 <head>
   <meta charset="UTF-8">
   <title>Angular App</title>
   <base href="/">
 </head>
-<body>
+<body ng-strict-di ng-cloak>
   <div class="container">
+      <!-- <a ui-sref="hello" ui-sref-active="active">Hello</a>
+      <a ui-sref="about" ui-sref-active="active">About</a> -->
     <ui-view></ui-view>
   </div>
 </body>
